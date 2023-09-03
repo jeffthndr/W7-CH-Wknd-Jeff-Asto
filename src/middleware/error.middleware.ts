@@ -1,7 +1,7 @@
 import createDebug from 'debug';
 import { NextFunction, Request, Response } from 'express';
 import { HttpError } from '../types/http.error.js';
-const debug = createDebug('W6E:Middleware:Error');
+const debug = createDebug('W7CHWKND:Middleware:Error');
 
 debug('Loaded');
 

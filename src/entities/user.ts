@@ -8,6 +8,7 @@ export type UserWithID = {
 };
 
 export type UserNoId = LoginData & {
+  email: string;
   firstName: string;
   lastName: string;
   friends: User[];
